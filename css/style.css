@@ -22,6 +22,7 @@ footer {
 }
 
 #middle {
+  background-color: #364968;
   display: flex;
   border-style: solid;
 }
@@ -36,6 +37,8 @@ footer {
 #paragraph {
   font-family: "Nanum Pen Script", cursive;
   text-transform: uppercase;
+  background-color: #364968;
+  color: #fddf97;
   font-size: 20px;
   flex-grow: 2;
   position: relative;
