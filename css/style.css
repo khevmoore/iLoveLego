@@ -1,0 +1,65 @@
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 auto;
+  background: #a64942;
+}
+
+footer {
+  text-align: right;
+}
+
+#LEGO {
+  font-family: "Carrois Gothic SC", sans-serif;
+  font-size: 150px;
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+#middle {
+  display: flex;
+  border-style: solid;
+}
+
+#image {
+  flex-grow: 1;
+  position: relative;
+  padding: 20px;
+  margin: 5px;
+}
+
+#paragraph {
+  font-family: "Nanum Pen Script", cursive;
+  text-transform: uppercase;
+  font-size: 20px;
+  flex-grow: 2;
+  position: relative;
+  padding: 20px;
+  margin: 5px;
+}
+
+#name {
+  flex-grow: 3;
+  font-family: "IBM Plex Serif", serif;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0 0 0;
+  color: lightslategray;
+  background-color: #1b435d;
+  font-size: 20px;
+  border-style: solid;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#span:hover {
+  color: orangered;
+  font-size: 20px;
+}
