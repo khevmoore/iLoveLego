@@ -5,59 +5,62 @@ body {
   background: #a64942;
 }
 
+header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 61px;
+  text-align: center;
+  font-weight: 800;
+}
+
 footer {
-  text-align: right;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 20px;
+  text-align: center;
 }
 
 #LEGO {
-  font-family: "Carrois Gothic SC", sans-serif;
-  font-size: 150px;
-  text-align: center;
-  padding: 20px;
   margin: 5px;
+  padding: 20px;
 }
 
 #container {
-  margin: 0 auto;
+  height: 769px;
 }
 
 #middle {
-  background-color: #364968;
   display: flex;
+  background-color: #364968;
   border-style: solid;
 }
 
 #image {
   flex-grow: 1;
   position: relative;
-  padding: 20px;
+  width: 440px;
+  padding: 40px;
   margin: 5px;
 }
 
 #paragraph {
-  font-family: "Nanum Pen Script", cursive;
-  text-transform: uppercase;
-  background-color: #364968;
-  color: #fddf97;
-  font-size: 20px;
   flex-grow: 2;
   position: relative;
+  width: 440px;
   padding: 20px;
   margin: 5px;
+  font-family: "Nanum Pen Script", cursive;
+  text-transform: uppercase;
+  color: #fddf97;
+  font-size: 20px;
 }
 
 #name {
   flex-grow: 3;
-  font-family: "IBM Plex Serif", serif;
+  position: fixed;
   width: 150px;
-  text-align: center;
   padding: 10px;
-  margin: 5px 0 0 0;
   color: lightslategray;
   background-color: #1b435d;
-  font-size: 20px;
   border-style: solid;
-  position: fixed;
   bottom: 20px;
   right: 20px;
 }
